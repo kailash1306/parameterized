@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-            git branch: 'main', url: 'https://github.com/<student-username>/<repo-name>.git'
+            git branch: 'main', url: 'https://github.com/kailash1306/parameterized'
             }
         }
         stage('Parallel Checks') {
